@@ -19,6 +19,71 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-light my-nav">
+    <a class="navbar-brand" href="#">[LOGO_HERE]</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Navigation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Paths</a>
+            <a class="dropdown-item" href="#">Courses</a>
+            <a class="dropdown-item" href="#">Challenges</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Plans</a>
+            <a class="dropdown-item" href="#">Membership</a>
+            <a href="" class="dropdown-item">Challenges</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Find Mentors</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+<!-- Navbar End -->
+
     <!-- Carousel Start -->
     <div class="container-fluid">
       <h1 class="text-center my-3">Courses Carousel</h1>
@@ -336,12 +401,64 @@
                 
             </div>
         </section>             
-      <footer>
+      <!-- <footer>
           <a class="bottom_btn" href="#">&copy; Online English</a>
-        </footer>
+        </footer> -->
     </div>
 <!-- Pricing End -->
 
+<footer>
+    <div class="container my-footer">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="my-header-footer">Footer List</div>
+          <ul>
+            <li class="my-list-footer">Banana</li>
+            <li class="my-list-footer">Tuna</li>
+            <li class="my-list-footer">Papaya</li>
+            <li class="my-list-footer">Apple</li>
+            <li class="my-list-footer">Stuff</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+            <div class="my-header-footer">Footer List</div>
+            <ul>
+              <li class="my-list-footer">Banana</li>
+              <li class="my-list-footer">Tuna</li>
+              <li class="my-list-footer">Papaya</li>
+              <li class="my-list-footer">Apple</li>
+              <li class="my-list-footer">Stuff</li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <div class="my-header-footer">Footer List</div>
+            <ul>
+              <li class="my-list-footer">Banana</li>
+              <li class="my-list-footer">Tuna</li>
+              <li class="my-list-footer">Papaya</li>
+              <li class="my-list-footer">Apple</li>
+              <li class="my-list-footer">Stuff</li>
+            </ul>
+        </div>
+        <div class="col-sm-2">
+            <div class="my-header-footer">Footer List</div>
+            <ul>
+              <li class="my-list-footer">Banana</li>
+              <li class="my-list-footer">Tuna</li>
+              <li class="my-list-footer">Papaya</li>
+              <li class="my-list-footer">Apple</li>
+              <li class="my-list-footer">Stuff</li>
+            </ul>
+        </div>
+        <div class="col-sm-1">
+          <div class="my-header-footer">Social</div>
+          <img src="img\facebook-icon.png" alt="facebook-icon" class="my-icon-footer">
+          <img src="img\insta-icon.png" alt="insta-icon" class="my-icon-footer">
+          <img src="img\snap-icon.png" alt="snapchat-icon" class="my-icon-footer">
+        </div>
+      </div>
+    </div>
+  </footer>
 
     <!-- Bootstrap javascrip link -->
     <script
@@ -359,6 +476,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <!-- Carousel Js -->
     <script src="/js/Carousel.js"></script>
   </body>
 </html>

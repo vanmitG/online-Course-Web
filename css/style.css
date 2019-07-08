@@ -4,8 +4,9 @@
 /* imported componants */
 @import url("/css/components/studentpath.css");
 @import url("/css/components/pricing.css");
+@import url("/css/components/navbar-style.css");
+@import url("/css/components/footer-style.css");
 /*@import url("/components/SearchBox-K.css"); */
-
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;

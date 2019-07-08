@@ -1,0 +1,35 @@
+/*.my-nav{
+    background: linear-gradient(90deg, #BDD3DE, #F0F0DF, #FF9000);
+}*/
+.my-nav {
+  background-color: #bdd3de;
+  height: 50px;
+}
+.my-nav:hover {
+  animation: navbar-focus 0.5s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes navbar-focus {
+  0% {
+    background-color: #bdd3de;
+    height: 50px;
+  }
+  100% {
+    background-color: #ff9000;
+    height: 60px;
+  }
+}
+.my-nav:not(:hover) {
+  animation: navbar-unfocus 0.5s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes navbar-unfocus {
+  0% {
+    background-color: #ff9000;
+    height: 60px;
+  }
+  100% {
+    background-color: #bdd3de;
+    height: 50px;
+  }
+}

@@ -1,0 +1,45 @@
+footer {
+  background: linear-gradient(90deg, #2b3a42, #bdd3de);
+}
+.my-header-footer {
+  color: #f0f0df;
+  font-size: 20px;
+  font-weight: bold;
+}
+.my-list-footer {
+  position: relative;
+  right: 40px;
+  list-style-type: none;
+  color: #f0f0df;
+}
+.my-footer {
+  padding: 50px;
+}
+.my-icon-footer {
+  width: 40px;
+  border-radius: 50%;
+}
+.my-icon-footer:hover {
+  animation: icon-hover 0.8s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes icon-hover {
+  0% {
+    width: 40px;
+  }
+  100% {
+    width: 60px;
+  }
+}
+.my-icon-footer:not(:hover) {
+  animation: icon-unhover 0.8s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes icon-unhover {
+  0% {
+    width: 60px;
+  }
+  100% {
+    width: 40px;
+  }
+}
